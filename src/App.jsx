@@ -7,11 +7,11 @@ function App() {
 
   return (
     <>
+    <div className="cards">
       <Card/>
       <Card/>
-
+      </div>
     </>
   )
 }
-
 export default App
