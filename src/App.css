@@ -7,6 +7,7 @@
     box-shadow: 3px 3px black;
     background: #f0f0f0;
     transition: all 0.15s ease-in-out;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -16,7 +17,22 @@
 
 .card h2 {
  font-size: 32px;
- font-family: sans-serif;   
+ font-family: sans-serif;  
+ /*border-left:  4px solid; */
+ 
+}
+
+.card .tags {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    border-radius: 8px;
+    margin: 16px;
+}
+
+.card .tags div{
+    color: black;
 }
 
 .card img {
