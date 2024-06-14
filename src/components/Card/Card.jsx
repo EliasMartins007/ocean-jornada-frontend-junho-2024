@@ -6,7 +6,7 @@ const item = props.item
     <div className="card">
     <h2>{item.name}</h2>
     <div className="tags">
-    <div >status: Vivo</div>
+    <div >Vivo</div>
     <div >Espécie: Humano</div>
     <div >Origem: Terra C-137</div>
     </div>
