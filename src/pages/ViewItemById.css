@@ -1,0 +1,42 @@
+.view_item {
+    font-family: sans-serif;
+}
+
+.view_item > {
+    text-decoration: underline;
+}
+
+.view_item > a:hover {
+    text-decoration: none;
+}
+
+.view_item > h1{
+    color: #2e7fab;
+}
+
+.view_item > .content {
+    display: flex;
+    justify-content: space-around;
+}
+.view_item > content > .attribute {
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fafafa;
+}
+.attributes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 8px;
+    justify-content: center;
+}
+
+.attribute {
+    width: 130px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 16px;
+    background: #fafafa;
+}
